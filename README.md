@@ -7,14 +7,14 @@ Code to explore and enrich Epic 7 RTA data puled by `u/Gskip`. Example Notebook 
 ### Database Queries
 
 ```sql
-// Raw Data
+--Raw Data
 SELECT * FROM battle_logs
 
 
-// Enriched Raw Data
+--Enriched Raw Data
 SELECT * FROM battle_logs_enriched
 
-// Data by Player
+--Data by Player
 SELECT * FROM battle_logs_by_player
 ```
 
