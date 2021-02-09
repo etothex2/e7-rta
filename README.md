@@ -4,6 +4,21 @@
 
 Code to explore and enrich Epic 7 RTA data puled by `u/Gskip`. Example Notebook with all ETL code can be run interactively using the above binder link.
 
+### Database Queries
+
+```sql
+// Raw Data
+SELECT * FROM battle_logs
+
+
+// Enriched Raw Data
+SELECT * FROM battle_logs_enriched
+
+// Data by Player
+SELECT * FROM battle_logs_by_player
+```
+
+
 ### Data Enrichment
 * Type casting
 * Reorder columns
