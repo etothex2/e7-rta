@@ -10,7 +10,6 @@ Code to explore and enrich Epic 7 RTA data puled by `u/Gskip`. Example Notebook 
 --Raw Data
 SELECT * FROM battle_logs
 
-
 --Enriched Raw Data
 SELECT * FROM battle_logs_enriched
 
